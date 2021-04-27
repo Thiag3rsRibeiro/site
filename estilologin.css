@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #0044FF,#00FF6C);
+}
+#corpo-form
+{
+    display: grid;
+    place-content: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+input
+{
+    display: block;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+}
+input[type="submit"]
+{
+    width: 330px;
+
+}
+input[type="submit"]:hover
+{
+   cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.logo
+a{  
+	position: absolute ;
+	width: 320px;height: 144px; 
+	 background: url("imagem/logo3.jpg") no-repeat;
+	font-size: 0px;
+    margin-left: 30px;;
+	margin-top: 10px;	
+	border-radius: 30px;
+}

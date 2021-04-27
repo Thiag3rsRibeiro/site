@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.carrossel
+{
+    
+    margin:25% 25% 25% 25%;
+    width: 50vw;
+    height: 60vh;
+    
+}
+#slide-1
+{
+    margin-top: 10vh;
+    background-color: red;
+    width: 50vw;
+    height: 60vh;
+}
+#slide-2
+{
+    margin-top: 10vh;
+    background-color: blue;
+    width: 50vw;
+    height: 60vh;
+}
+#slide-3
+{
+    margin-top: 10vh;
+    background-color: green;
+    width: 50vw;
+    height: 60vh;
+}
+
+.carrossel ul
+{
+    display: flex;
+    width: vw;
+    height: 60vh;
+}
+.carrossel li
+{
+    position: relative;
+    animation: slide 15s infinite easy-out;
+}
+@keyframes slide{
+    0%{left:0vw}
+    30%{left:-100%}
+    60%{left:-200%}
+    100%{left:0% }
+}

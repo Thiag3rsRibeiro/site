@@ -1,0 +1,683 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.cobrir
+{
+	height: 180px;
+}
+header
+{
+    background-color:rgba(255, 255, 255); 
+	width: 100%; height: 160px;
+}
+header
+.logo-1
+{
+	display: none;
+	
+}
+.scrollheader{
+	position: fixed;
+	height: 65px;
+	background:white;
+	z-index: 1;
+}
+.scrollheader
+.logo-1{
+    display: flex;
+	margin-top: -20px;
+}
+.scrollheader
+a{
+	color: white;
+}
+.scrollheader .logo
+{
+    display: none;
+}
+.mobile
+
+body
+{
+	
+	margin: 0px;
+	/*background-image: url("imagem/familia.jpg");
+	background-repeat: no-repeat;*/
+	background-color: rgba(255, 255, 255);
+	/*width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: 50% 10%;*/
+    
+}
+.item
+img
+{
+	width: 100%;
+  height: 400px;
+}
+/*
+.todo
+{
+	background-color: rgba(16, 21, 42, .4);
+	width: 100vw;
+	height: 74.4vh;
+	background-size: cover;
+}*/
+.top	
+{
+	
+	position: relative;
+	margin-top: 40px;
+	max-width: 70vw;
+	float: right;
+	margin-right: 40px;
+}
+
+.top
+a{
+	display: inline;
+	position: relative;
+	padding: 0px 20px;
+	color: black;
+	text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: bolder;
+}
+.top
+a:hover
+{
+	color: white;
+	border: 20px;
+	background-color: #808080;
+	border-radius: 20px;
+}
+@media only screen and (max-width: 995px) {
+    header,.top,.todo,.container,.coluna,.galeria{ display: none !important; }
+    }
+	@media only screen and (max-width: 994px) {
+		.mobile,.coluna-mob{ display: inline !important; }
+		}
+		@media only screen and (min-width: 994px) {
+			.mobile,.coluna-mob{ display: none !important; }
+			}
+			@media only screen and (max-width: 994px) {
+				.coluna-mob{ display: inline-block !important; }
+				}
+				@media only screen and (min-width: 994px) {
+					.coluna-mob,.fim-mob{ display: none !important; }
+					}
+					@media only screen and (max-width: 995px) {
+						.desktop,.fim,.cobrir{ display: none !important; }
+						}
+						@media only screen and (max-width: 994px) {
+							.fim-mob{ display:grid !important; }
+							}
+.internet
+{
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+	font-family:Arial, Helvetica, sans-serif ;
+	font-weight: bolder;
+	font-size: 70px;
+	color: white;
+}							
+.galeria
+{
+	overflow-x: auto;
+}						
+.mobile
+{
+	overflow-x: auto;
+}
+header
+{
+	background-color:rgba(255, 255, 255); 
+	width: 100%; height: 40vh;
+	padding-top: 20px;
+}
+.logo-mob
+{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	margin-left:35vw;
+   
+
+}
+		ul
+{
+
+	list-style: none;
+	display: grid;
+	place-items: right;
+}
+a
+{ 
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 0px 20px;
+	
+}
+a:hover
+{
+	background-color: none;
+}
+nav
+{
+	background-color: white;
+	height: 50px;
+	width: 100%;
+	padding-top: 20px;
+}
+ul#ul-principal
+{ 
+   position: relative;
+   width: 80px;
+   height: 50px;
+   margin-bottom: 40px;
+
+}
+.li-p
+{
+	display:flex;
+	margin-top: 20px;
+	
+	line-height: 50px;	
+}
+ul li ul li 
+{
+	background-color: #008c56;
+}
+.ul-ent
+{
+	display: none;
+}
+ul li:hover ul{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	z-index: 1;
+}
+#banner
+{
+	
+	padding:0px 0px;
+	width: 100%;
+	height: 400px;
+}
+.logo-1
+a{  
+	position: absolute;
+	width: 120px;height: 72px; 
+	 background: url("imagem/logo2.jpg") no-repeat;
+	font-size: 0px;
+    margin-left: 50px;;
+	margin-top: 10px;	
+	border-radius: 20px;
+}
+.logo-1mob
+a{  
+	position: relative;
+	width: 120px;height: 72px; 
+	 background: url("imagem/logo2.jpg") no-repeat;
+	font-size: 0px;
+    margin-left: 10px;;
+	margin-top: 10px;	
+	border-radius: 20px;
+	
+}
+.fim
+h1
+{
+	height: -100;
+}
+.logo
+a{  
+	position: absolute;
+	width: 280px;height: 144px; 
+	 background: url("imagem/logo3.jpg") no-repeat;
+	font-size: 0px;
+    margin-left: 50px;;
+	margin-top: 10px;	
+	border-radius: 30px;
+}
+h1
+{  
+	
+	font-size: 50px; color: black;display:block;
+	
+}
+
+
+p
+{ 
+	display: inline-block;
+	color:black;
+	font-size: 25px;
+	padding-bottom: 20px;
+	font-family: sans-serif;
+}
+#cont
+{
+	display: inline-block;
+	color:black;
+	font-size: 25px;
+	margin-top: 90px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	font-family: sans-serif;
+}
+#inside
+{
+	display: inline-block;
+	color:black;
+	font-size: 18px;
+	padding-bottom: 20px;
+	font-family: sans-serif;	
+}
+.somos
+{
+	background-color: rgba(25, 47, 119, 0.315);
+	width:100vw;
+	text-indent: 2em;
+	
+}
+.plano1
+{
+	margin-right: 500px;
+	padding: 0px;
+	background-color: rgba(255,255,255,.6);
+	display: grid;
+	place-items:left;
+	height: 240px;
+	width: 500px;
+	z-index: 1;
+}
+.assine
+{   display:block; 
+	outline: none;
+	width: 200px;
+	height: 30px;
+	cursor: pointer;
+	background-color: #1C1C1C;
+	border-radius: 20px;
+	color: white;
+}
+.tit
+{
+	padding-top: 0px;
+	font-size: 30px;
+	color: black;
+}
+.tit1
+{
+	padding-top: 0px;
+	font-size: 30px;
+	color:black;
+}
+.plano2
+{
+	margin-right: 500px;
+	padding: 0px;
+	background-color: rgba(255,255,255,.6);
+	display: grid;
+	place-items:left;
+	height:300px;
+	width: 500px;
+	z-index: 1;
+}
+.plano3
+{  
+	background-color: rgba(255,255,255,.6);
+	margin-right: 500px;
+	padding: 0px;
+	display: grid;
+	place-items:left;
+	height:300px;
+	width: 500px;
+}
+.container{
+	display:flex;
+    flex-direction: row;
+	width: 100vw;
+	height: 300px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+.coluna{	
+	display:inline-block;
+	width: 27vw;
+	height: 290px;
+	margin: 0vh 3vw;
+	background-color:rgba(47,79,79,.1);
+	border-radius: 30px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.5)
+	;
+}
+
+.img
+{
+	display: flex;
+	margin: 10px 10px;
+}
+.coluna-mob{
+	text-align: center;
+	width: 92vw;
+	height: 290px;
+	background-color:rgba(47,79,79,.1);
+    border-radius: 30px;
+	margin: 20px 10px;
+	
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+}
+.contatos
+{
+	
+	margin-left:4vw ;
+	width: 20vw;
+	height: 77px;
+}
+.contatos-1
+{
+	display: block;
+	
+	margin-left:4.2vw ;
+	width: 90vw;
+	height: 77px;
+}
+.telefone
+a
+{
+	color: #008c56!important;
+    text-align: left!important;
+    font-weight: 900!important;
+    font-size: 30px!important;
+    line-height: 41px!important;
+}
+
+.fim
+{
+	display: flex;
+	place-items: left;
+	background-color: #3B3B3B;
+	width: 100vw;
+	height: 350px;
+}
+
+.fim
+a{
+    display: grid;
+	margin-left: 100px;
+    font-family: sans-serif;
+	color: white;
+}
+.fim
+a:hover
+{
+	display: block;
+	color: #008c56;
+	background-color:none;
+}
+.separador
+{
+	height: 46px;
+}
+.btn-whats
+{
+	
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0.6rem;
+	padding-bottom: 29px;
+}
+.btn
+{
+	font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.20!important;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    border-radius: 25px;
+    padding: 0.8em 2.7em;
+    background: #008c56;
+    border-color: #008c56;
+    color: #ffffff!important;
+    box-shadow: 0 0em 0em rgba(0,0,0,0.2);
+}
+.fim-center
+{
+	display: block;
+	
+	width: 60vw;
+	text-align: center;
+}
+#fim-link
+{
+	
+	width: 320px;
+	margin-top: 100px;
+	margin-left: -20px;
+}
+
+.fim-atendimento
+{
+	
+	width: 100%;
+	height: 20px;
+	display: block;
+}
+
+
+.fim-atendimento
+p
+{
+	display:block;
+	font-size: 15px;
+	font-weight: bold;
+	width:100%;
+	margin-bottom: -100px; 
+	color: #dee1e3 !important;
+	 text-align: center;
+	 margin-top: 30px;
+}
+
+
+#link-atend
+{
+	display:grid;place-items: left;width: 100%;margin-top: 90px;margin-left: -50px;
+}
+.fim-redes
+{
+	
+	width: 300px;
+	display: block;
+}
+
+.fim-redes
+p
+{
+	color: white;
+}
+
+
+#facebook{  
+	position: absolute;
+	width: 24px;height: 24px; 
+	 background: url("imagem/facebook.png") no-repeat;
+	font-size: 0px;
+    margin-left: 50px;;
+	margin-top: 50px;	
+	border-radius: 30px;
+}
+
+#twitter{  
+	position: absolute;
+	width: 24px;height: 24px; 
+	 background: url("imagem/twitter.png") no-repeat;
+	font-size: 0px;
+    margin-left: 90px;;
+	margin-top: 50px;	
+	border-radius: 8px
+}
+
+#instagram{  
+	position: absolute;
+	width: 24px;height: 24px; 
+	 background: url("imagem/instagram.png") no-repeat;
+	font-size: 0px;
+    margin-left:130px;;
+	margin-top: 50px;	
+	border-radius: 8px
+}
+
+.fim-central
+{
+	margin-top: 50px;
+}
+.fim-central
+p{
+	
+	font-size: 15px;
+	font-weight: bold;width:100%; color: #dee1e3 !important; text-align: center;
+}
+.fim-central
+a{
+	margin-left: -18px;
+	 text-align: center;
+}
+.fim-central
+a:hover
+{
+	color: #008c56;
+}
+
+
+/*mobile*/
+.fim-mob
+{
+	display: grid;
+	place-items: center;
+
+	
+	background-color: #3B3B3B;
+	width: 100vw;
+	height: 600px;
+}
+.fim-link-mob
+{ 
+	width: 200px;
+	margin-bottom: -20px;
+	margin-top: -50px;
+	margin-left: 20px;	
+	text-align: center;
+}
+.fim-link-mob
+a:hover
+{
+	color: #008c56;	
+}
+.fim-center-mob
+{
+	
+	display: grid;
+	height: 100px;
+	margin-top: -50px;
+	place-items: center;
+	width: 50vw;
+}
+.fim-atendimento-mob
+{
+	display: block;
+	width: 100%;
+	height: 20px;
+	margin-top: 0px;
+}
+.fim-atendimento-mob
+a{
+	margin-left: 100px;
+}
+.fim-atendimento-mob
+a:hover{
+	margin-left: 100px;color: #008c56;	
+}
+.fim-atendimento-mob
+p
+{
+	display:block;
+	font-size: 15px;
+	font-weight: bold;
+	width:100%;
+	margin-bottom: -100px; 
+	color: #dee1e3 !important;
+	 text-align: center;
+	 margin-top: 30px;
+}
+.fim-redes-mob
+{
+	width: 250px;
+	display: block;
+	margin-left: 70px;
+	margin-top:-120px;
+}
+.fim-redes-mob
+p
+{
+	font-size: 20px;
+	color: white;
+}
+#facebook-mob{  
+	position: absolute;
+	width: 24px;height: 24px; 
+	 background: url("imagem/facebook.png") no-repeat;
+	font-size: 0px;
+    margin-left: 50px;;
+	margin-top: 20px;	
+	border-radius: 30px;
+}
+#twitter-mob{  
+	position: absolute;
+	width: 24px;height: 24px; 
+	 background: url("imagem/twitter.png") no-repeat;
+	font-size: 0px;
+    margin-left: 90px;;
+	margin-top: 20px;	
+	border-radius: 8px
+}
+#instagram-mob{  
+	position: absolute;
+	width: 24px;height: 24px; 
+	 background: url("imagem/instagram.png") no-repeat;
+	font-size: 0px;
+    margin-left:130px;;
+	margin-top: 20px;	
+	border-radius: 8px
+}
+.fim-center-mob
+{
+	display: block;
+	font-size: 15px;
+	margin-top: 50px;
+	font-weight: bold;width:100%; color: #dee1e3 !important; text-align: center;
+}
+.fim-center-mob
+p{
+	color: white;
+	font-size: 15px;
+}
+
+.link-redes-mob
+{
+	margin-top: -50px;
+	margin-left: -20px;
+}
+.fim-center-mob
+a:hover{
+	color: #008c56;
+}
